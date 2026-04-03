@@ -330,7 +330,7 @@ export default function App() {
     : 0
 
   const TABS = [
-    { id: 'recommended', label: '✅ Recommended' },
+    { id: 'recommendation', label: '✅ Recommendation' },
     { id: 'routes',         label: '🗺 Routes' },
     { id: 'risk',           label: '📊 Risk' },
     { id: 'explain',        label: '⚠ Explain' },
