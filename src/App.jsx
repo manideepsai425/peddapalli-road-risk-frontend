@@ -570,11 +570,11 @@ export default function App() {
             {/* Tabs */}
             <div style={{
               background: '#fff', borderRadius: 20,
-              boxShadow: '0 2px 16px rgba(0,0,0,0.08)', overflow: 'hidden',
+              boxShadow: '0 2px 16px rgba(0,0,0,0.08)',
             }}>
               <div style={{
                 display: 'flex', borderBottom: '1px solid #f0f0f0',
-                overflowX: 'auto', WebkitOverflowScrolling: 'touch',
+                overflowX: 'auto', WebkitOverflowScrolling: 'touch',borderRadius: '20px 20px 0 0',
               }}>
                 {TABS.map(tab => (
                   <button
